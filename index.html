@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog</title>
+	<link rel="stylesheet" href="./scss/style.css">
+</head>
+<body>
+	<div class="wrapper">
+	<header>
+		<div class="header-container">
+			<h1>Hello! That is my blog</h1>
+		</div>
+	</header>
+	<main>
+		<div class="main-container">
+			<h2>Данный сайт/блог создан для того, чтоб показать над чем я работаю и мои заготовки-наработки
+			</h2>
+			<ul class="menu-list" id="menu.list">
+				<li style="--i:3;"><a href="#">Статьи</a></li>
+				<li style="--i:2;"><a href="#">Проекты</a></li>
+				<li style="--i:1;"><a href="#">В разработке...</a></li>
+			</ul>
+		</div>
+		<div class="m_sic"> <figure>
+			<figcaption>if you're bored, just play the music:</figcaption>
+			<audio
+					controls
+					loop
+					src='./audio/8_Bit_Universe-This_Fire_Burns-spaces.im.mp3' >
+							Your browser does not support the
+							<code>audio</code> element.
+
+			</audio>
+			<a href="#" id="But1" onclick="settings()"> </a>
+			<div  id="settings" style="display: none; width: 200px; height: 200px" ><ul class="settings_list">
+				<li><a href="#" id="set1">Change BG</a></li>
+			</ul> </div>
+	</figure>
+	 </div>
+	</main>
+
+	<footer>
+		<div class="footer-content"> 
+			<span >©</span>
+			<h4> 2022 Dmitriy Vozhzhov UA</h4>
+		</div>
+
+	</footer>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
+
+</body>
+</html>
